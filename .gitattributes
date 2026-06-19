@@ -1,0 +1,2 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+network_bouncer/*.csv filter=lfs diff=lfs merge=lfs -text
