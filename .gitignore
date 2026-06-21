@@ -12,9 +12,12 @@ htmlcov/
 .coverage
 .coverage.*
 
-# Large dataset files
-*.csv
-!requirements.txt
+# Generated output CSV files only (allow dataset CSVs)
+suspicious_report.csv
+
+# Allow dataset files for LFS
+!*.csv
+!network_bouncer/*.csv
 !tests/fixtures/*.csv
 
 # Output files

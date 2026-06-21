@@ -1,9 +1,3 @@
-srcip,dstip,dsport,proto,state,label
-192.168.1.100,10.0.0.1,80,tcp,CON,0
-192.168.1.100,10.0.0.2,443,tcp,CON,0
-192.168.1.100,10.0.0.3,22,tcp,FIN,0
-192.168.1.200,10.0.0.1,80,tcp,CON,1
-192.168.1.200,10.0.0.5,8080,tcp,INT,1
-10.0.0.50,192.168.1.1,3389,tcp,CON,0
-10.0.0.50,192.168.1.2,3389,tcp,CON,0
-172.16.0.10,192.168.1.100,25,tcp,FIN,0
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9c8a4c1c41b44fb8463ae8ccc703c11427cf778bb3c68c482f56d1c7a455f1e
+size 342
